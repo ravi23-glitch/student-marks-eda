@@ -161,15 +161,13 @@ body {
 }
 
 /* Preview box */
-.preview-box {
-    margin-top: 16px;
-    padding: 30px;
-    border-radius: 14px;
-    background: #020617;
-    border: 1px dashed #4b5563;
-    text-align: center;
-    font-size: 14px;
-    color: #9ca3af;
+.preview-img {
+    width: 100%;                 
+    max-width: 1000px;            
+    height: auto;                 
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    display: block;
 }
 
 /* Footer */
@@ -197,3 +195,4 @@ body {
         font-size: 13px;
     }
 }
+
